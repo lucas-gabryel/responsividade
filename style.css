@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background: #ECE9FD;
+
+    font-family: 'Epilogue', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+
+    padding: 63px;
+}
+
+:root {
+    /* 1rem = unidade setada no browser (padrão 16px) */
+    font-size: 65,2%; /* deixa 1rem = 10px | se usasse 6,52% (porcentagem referente aos 16px padrão), 1rem = 1px */
+}
+
+p:nth-child(1) {
+    text-transform: uppercase;
+    color: #7158EF;
+    letter-spacing: 0.3rem;
+
+    margin-bottom: 1.7rem;
+}
+
+h1 {
+    color: #090039;
+    font-size: 4rem;
+    font-weight: 800;
+
+    margin-bottom: 1.5rem;
+}
+
+h1 + p {
+    color: rgba(10, 0, 57, 0.64);
+    
+    margin-bottom: 3.2rem;
+}
+
+a {
+    color: #7158EF;
+
+    margin-bottom: 7.2rem;
+}
+
+a:hover {
+    font-weight: 800;
+}
+
